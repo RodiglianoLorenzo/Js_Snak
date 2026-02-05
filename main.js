@@ -1,6 +1,6 @@
-const numero = prompt("Inserisci il primo numero");
-const numeroDue = prompt("Inserisci il secondo Numero");
-4
+const numero =  Number(prompt("Inserisci il primo numero"));
+const numeroDue =Number(prompt("Inserisci il secondo Numero"));
+
 if (numero > numeroDue) {
     console.log("Il numero maggiore e'" + numero);
     
